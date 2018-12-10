@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org/">
 <head th:replace="fragments :: head">
 </head>
@@ -16,6 +16,7 @@
 
     <div th:fragment="jobs-list">
         <div th:if="${jobs} and ${jobs.size()}">
+
 
             <h3 th:text="${jobs.size() + ' Result(s)'}"></h3>
 
